@@ -43,8 +43,8 @@ jobs:
 
     - name: Build and push Docker image
       run: |-
-        docker build -t kiran11113/my-nginx:${{ steps.get-tag.outputs.tag}} .
-        docker push kiran11113/my-nginx:${{ steps.get-tag.outputs.tag}}
+        docker build -t seunking001/my-nginx:${{ steps.get-tag.outputs.tag}} .
+        docker push seunking001/my-nginx:${{ steps.get-tag.outputs.tag}}
    
    
    
